@@ -6,7 +6,7 @@ routes.use(
   '/',
   (docData = (req, res) => {
     let docData = {
-      documentationURL: 'https://nathanbirch.github.io/nathan-byui-api-docs',
+      documentationURL: 'https://app.swaggerhub.com/apis/byuidaho-cc9/tamples/1.0.0',
     };
     res.send(docData);
   })
